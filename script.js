@@ -18,7 +18,7 @@ function getSongTitle(song) {
 function loadSong(song) {
   title.innerText = getSongTitle(song);
   audio.src = `https://github.com/jithingeorgedev/happy-birthday/blob/main/songs/${song}.mp3?raw=true`;
-  cover.src = `https://github.com/jithingeorgedev/happy-birthday/blob/main/images/${song}.jpg?raw=true`;
+  cover.src = `https://github.com/jithingeorgedev/happy-birthday/blob/main/images/${song}.png?raw=true`;
 }
 
 function playSong() {
