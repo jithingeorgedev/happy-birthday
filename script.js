@@ -8,7 +8,7 @@ const progressContainer = document.getElementById("progress-container");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
-const songs = ["I too miss you this much"];
+const songs = ["I too miss you this much","I too miss you this much","I too miss you this much"];
 let songIndex = 1;
 
 function getSongTitle(song) {
